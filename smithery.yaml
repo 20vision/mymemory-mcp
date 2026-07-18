@@ -1,0 +1,14 @@
+# Smithery configuration — current format (2026).
+#
+# The legacy smithery.yaml (startCommand / commandFunction / configSchema)
+# is deprecated. This single key is the only supported field, and it only
+# matters if you deploy this server as a Smithery-HOSTED TypeScript build.
+runtime: "typescript"
+
+# This package is primarily an npm stdio server (`npx -y mymemory-mcp`).
+# The actual Smithery listing is created from the CLI, not from this file —
+# see docs/registry-submissions.md, "MyMemory MCP server":
+#   npx @smithery/cli mcp publish "https://github.com/20vision/MyClawn" -n <org>/mymemory-mcp
+#
+# Monorepo note: in the Smithery GitHub integration settings, set the base
+# directory to `packages/mymemory-mcp`.

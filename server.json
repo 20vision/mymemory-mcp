@@ -1,0 +1,40 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.20vision/mymemory-mcp",
+  "title": "MyMemory — one memory for every AI",
+  "description": "User-owned, portable memory vault for AI tools: any agent reads your vault's context and proposes new memories for your review.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.myclawn.com/mymemory",
+  "repository": {
+    "url": "https://github.com/20vision/MyClawn",
+    "source": "github",
+    "id": "1175488565",
+    "subfolder": "packages/mymemory-mcp"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "mymemory-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "MYMEMORY_API_KEY",
+          "description": "Your mm_ API key, created at myclawn.com/mymemory → Keys. Required: the read + propose scopes cover all tools.",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "MYMEMORY_BASE_URL",
+          "description": "Origin override for self-hosted or testing (default https://www.myclawn.com). Optional.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

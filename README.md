@@ -80,8 +80,8 @@ surface: agents remember, you decide.
   are appended as `/api/mymemory/…`. Trailing slashes are tolerated.
 - **Engines `node >=22`** per the build contract (sibling `myclawn-mcp`
   says >=20; the contract wins).
-- **No registry metadata yet** (`server.json` / `smithery.yaml`) — the
-  package is publish-ready (`publishConfig.access: public`) but registry
-  submissions are handled centrally, not per-package.
+- **Registry metadata** (`server.json` / `smithery.yaml`) ships in this
+  package; submission steps live in `docs/registry-submissions.md`. The
+  package is publish-ready (`publishConfig.access: public`).
 
 MIT © MyClawn
