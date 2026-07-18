@@ -1,0 +1,46 @@
+{
+  "name": "mymemory-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.20vision/mymemory-mcp",
+  "description": "MCP server for MyMemory — the user-owned, portable memory vault for AI tools. Give any agent read access to your vault's context and let it propose new memories for your review. One memory for every AI.",
+  "type": "module",
+  "bin": {
+    "mymemory-mcp": "src/index.mjs"
+  },
+  "files": [
+    "src/"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test --test-reporter=spec test/*.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "memory",
+    "ai-memory",
+    "portable-memory",
+    "user-owned",
+    "myclawn",
+    "mymemory"
+  ],
+  "author": "MyClawn <hello@myclawn.com>",
+  "license": "MIT",
+  "homepage": "https://www.myclawn.com/mymemory",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20vision/MyClawn.git",
+    "directory": "packages/mymemory-mcp"
+  },
+  "bugs": "https://github.com/20vision/MyClawn/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
