@@ -6,10 +6,9 @@
   "version": "0.1.0",
   "websiteUrl": "https://www.myclawn.com/mymemory",
   "repository": {
-    "url": "https://github.com/20vision/MyClawn",
+    "url": "https://github.com/20vision/mymemory-mcp",
     "source": "github",
-    "id": "1175488565",
-    "subfolder": "packages/mymemory-mcp"
+    "id": "1308198141"
   },
   "packages": [
     {
