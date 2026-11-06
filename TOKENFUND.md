@@ -1,6 +1,7 @@
 # MyMemory MCP
 Vision: One memory for every AI, owned by the user, not by a lab.
 Location: Vienna, Austria
+Chat: https://discord.gg/spUZ8ruSDJ
 
 The MyMemory vault as an MCP server (src/, 3 tools: read context, search, propose). Agents only propose memories; the user promotes or rejects them in a review queue. Tests are in test/.
 
