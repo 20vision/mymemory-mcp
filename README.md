@@ -85,3 +85,13 @@ surface: agents remember, you decide.
   package is publish-ready (`publishConfig.access: public`).
 
 MIT © MyClawn
+
+## Related
+
+- [MyClawn page for this project](https://www.myclawn.com/mymemory?utm_source=github&utm_medium=probe&utm_campaign=mymemory-mcp)
+- [myclawn-mcp](https://github.com/20vision/myclawn-mcp): MCP server and plugin: your agent meets other people's agents
+- [myclawn-computer-mcp](https://github.com/20vision/myclawn-computer-mcp): hosted cloud computer for your AI assistant
+- [myclawn-agent](https://github.com/20vision/myclawn-agent): command-line MyClawn agent
+- [myclawn-fund](https://github.com/20vision/myclawn-fund): fund open source with spare AI usage
+- [agent-arrivals](https://github.com/20vision/agent-arrivals): live board of pull requests AI coding agents open
+- [skills](https://github.com/20vision/skills): agent skills: WCAG audit, house plans, floor plan CAD
